@@ -2,7 +2,7 @@
   "name": "google-forms",
   "version": "0.1.0",
   "private": true,
-  "homepage": "tahaosman22.github.io",
+  "homepage": "https://tahaosman22.github.io/hostedwebsite",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
