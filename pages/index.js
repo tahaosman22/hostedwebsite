@@ -46,13 +46,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="  h-screen items-center flex justify-center">
+      <main className="  h-screen items-center flex justify-left px-10">
         <form
           onSubmit={formik.handleSubmit}
           className="bg-white flex rounded-lg w-1/2 font-latoRegular"
         >
-          <div className="flex-1 text-gray-700  p-20">
-            <h1 className="text-3xl pb-2 font-latoBold">ذكرى ابو العافية</h1>
+          <div className="flex-1 text-gray-700  p-10">
+            <h1 className="text-3xl pb-2 font-latoBold text-center">ذكرى ابو العافية</h1>
             <p className="text-sm  text-gray-500">
             *يرجى تعبئة كل البيانات  للانتقال لصفحة تحميل المحتوى*
             </p>
@@ -143,7 +143,7 @@ export default function Home() {
                 </label>
                 <p className="text-sm font-latoBold text-red-400 "></p>
                 <textarea
-                  className="border-2 border-gray-500 p-2 rounded-md w-80 h-40 focus:border-teal-500 focus:ring-teal-500 "
+                  className="border-2 border-gray-500 p-2 rounded-md w-80 h-40 focus:border-teal-500 focus:ring-teal-500 text-right"
                   type="text"
                   name="comment"
                   placeholder="الرجاء إدخال تعليق لوصف المحتوى الذي تم تحميله"
